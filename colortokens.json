@@ -1,9 +1,1296 @@
 {
   "global": {},
+  "Color Tokens/Bagó": {
+    "primitives": {
+      "primary": {
+        "primary-50": {
+          "value": "#f4e2ef",
+          "type": "color"
+        },
+        "primary-100": {
+          "value": "#eac5e0",
+          "type": "color"
+        },
+        "primary-200": {
+          "value": "#dfa8d1",
+          "type": "color"
+        },
+        "primary-300": {
+          "value": "#d48ac1",
+          "type": "color"
+        },
+        "primary-400": {
+          "value": "#ca6db1",
+          "type": "color"
+        },
+        "primary-500": {
+          "value": "#bf50a2",
+          "type": "color"
+        },
+        "primary-600": {
+          "value": "#93367b",
+          "type": "color"
+        },
+        "primary-700": {
+          "value": "#792c65",
+          "type": "color"
+        },
+        "primary-800": {
+          "value": "#602350",
+          "type": "color"
+        },
+        "primary-900": {
+          "value": "#461a3a",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "secondary-50": {
+          "value": "#f5f7ff",
+          "type": "color"
+        },
+        "secondary-100": {
+          "value": "#eceffe",
+          "type": "color"
+        },
+        "secondary-200": {
+          "value": "#d8e0fd",
+          "type": "color"
+        },
+        "secondary-300": {
+          "value": "#9daffa",
+          "type": "color"
+        },
+        "secondary-400": {
+          "value": "#748ff8",
+          "type": "color"
+        },
+        "secondary-500": {
+          "value": "#4c6ef6",
+          "type": "color"
+        },
+        "secondary-600": {
+          "value": "#244df4",
+          "type": "color"
+        },
+        "secondary-700": {
+          "value": "#0c36e2",
+          "type": "color"
+        },
+        "secondary-800": {
+          "value": "#0a2db9",
+          "type": "color"
+        },
+        "secondary-900": {
+          "value": "#082391",
+          "type": "color"
+        },
+        "secondary-brand-base": {
+          "value": "#c5d0fc",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "neutral-white": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Blanco absoluto (Fondos, Textos inversos)"
+        },
+        "neutral-50": {
+          "value": "#fafafa",
+          "type": "color",
+          "description": "Off-white (Fondos claros, contenedores)"
+        },
+        "neutral-100": {
+          "value": "#eaeaea",
+          "type": "color",
+          "description": "Tono más claro (Bordes sutiles, Hover/Disable)"
+        },
+        "neutral-200": {
+          "value": "#cfcece",
+          "type": "color",
+          "description": "Gris muy claro"
+        },
+        "neutral-300": {
+          "value": "#bab8b8",
+          "type": "color",
+          "description": "Gris para bordes por defecto"
+        },
+        "neutral-400": {
+          "value": "#a5a1a1",
+          "type": "color",
+          "description": "Gris medio (Iconos secundarios)"
+        },
+        "neutral-500": {
+          "value": "#908b8b",
+          "type": "color",
+          "description": "Gris base (Sombras)"
+        },
+        "neutral-600": {
+          "value": "#7a7474",
+          "type": "color",
+          "description": "Gris oscuro (Textos de placeholder)"
+        },
+        "neutral-700": {
+          "value": "#655f5f",
+          "type": "color",
+          "description": "Gris más oscuro"
+        },
+        "neutral-800": {
+          "value": "#4e4949",
+          "type": "color",
+          "description": "Gris muy oscuro"
+        },
+        "neutral-900": {
+          "value": "#383434",
+          "type": "color",
+          "description": "Gris casi negro (Texto del cuerpo principal)"
+        },
+        "base-black": {
+          "value": "#0b0a0a",
+          "type": "color",
+          "description": "Negro puro (Textos de alto contraste)"
+        }
+      },
+      "feedback": {
+        "error-100": {
+          "value": "#f3bcc1",
+          "type": "color",
+          "description": "Tono más claro (Fondos de notificación, backgrounds)"
+        },
+        "error-300": {
+          "value": "#e87883",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "error-500": {
+          "value": "#dc3545",
+          "type": "color",
+          "description": "Color Base (Botones de acción, Iconos principales)"
+        },
+        "error-700": {
+          "value": "#a21c29",
+          "type": "color",
+          "description": "Tono oscuro (Texto de error, Iconos de alto contraste)"
+        },
+        "success-100": {
+          "value": "#8fffd4",
+          "type": "color",
+          "description": "Tono más claro (Fondos de notificación, backgrounds)"
+        },
+        "success-300": {
+          "value": "#1effa9",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "success-500": {
+          "value": "#00ad6b",
+          "type": "color",
+          "description": "Color Base (Confirmaciones, Iconos principales)"
+        },
+        "success-700": {
+          "value": "#007c4d",
+          "type": "color",
+          "description": "Tono oscuro (Texto de éxito, Iconos de alto contraste)"
+        },
+        "warning-100": {
+          "value": "#ffffee",
+          "type": "color",
+          "description": "Tono más claro (Fondos de notificación, backgrounds)"
+        },
+        "warning-300": {
+          "value": "#ffd65a",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "warning-500": {
+          "value": "#ffc107",
+          "type": "color",
+          "description": "Color Base (Alertas, Iconos principales)"
+        },
+        "warning-700": {
+          "value": "#b78900",
+          "type": "color",
+          "description": "Tono oscuro (Texto de advertencia, Iconos de alto contraste)"
+        }
+      }
+    },
+    "semantics": {
+      "primary": {
+        "color-background-primary": {
+          "value": "{primitives.primary.primary-50}",
+          "type": "color",
+          "description": "El tono más claro, usado para fondos de contenedores o notificaciones sutiles."
+        },
+        "primary-100": {
+          "value": "#eac5e0",
+          "type": "color"
+        },
+        "primary-200": {
+          "value": "#dfa8d1",
+          "type": "color"
+        },
+        "color-brand-disabled": {
+          "value": "{primitives.primary.primary-300}",
+          "type": "color",
+          "description": "El color para elementos principales deshabilitados o inactivos."
+        },
+        "primary-400": {
+          "value": "#ca6db1",
+          "type": "color"
+        },
+        "color-brand-default": {
+          "value": "{primitives.primary.primary-500}",
+          "type": "color",
+          "description": "El color principal para Botones, Links y acciones clave."
+        },
+        "color-brand-hover": {
+          "value": "{primitives.primary.primary-600}",
+          "type": "color",
+          "description": "El color usado cuando el usuario pasa el ratón sobre un elemento principal."
+        },
+        "color-brand-pressed": {
+          "value": "{primitives.primary.primary-700}",
+          "type": "color",
+          "description": "El color para el estado activo (click) de un botón."
+        },
+        "color-border-input-dark": {
+          "value": "{primitives.primary.primary-800}",
+          "type": "color"
+        },
+        "primary-900": {
+          "value": "#461a3a",
+          "type": "color"
+        },
+        "color-text-on-brand": {
+          "value": "{primitives.neutral.neutral-white}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "secondary-50": {
+          "value": "#f5f7ff",
+          "type": "color"
+        },
+        "color-secondary-background": {
+          "value": "{primitives.secondary.secondary-100}",
+          "type": "color",
+          "description": "El tono más claro, usado para fondos de contenedores o tarjetas."
+        },
+        "secondary-200": {
+          "value": "#d8e0fd",
+          "type": "color"
+        },
+        "color-divider-default": {
+          "value": "{primitives.secondary.secondary-300}",
+          "type": "color",
+          "description": "El color base para todas las líneas divisorias, separadores horizontales y verticales."
+        },
+        "secondary-400": {
+          "value": "#748ff8",
+          "type": "color"
+        },
+        "color-secondary-default": {
+          "value": "{primitives.secondary.secondary-500}",
+          "type": "color",
+          "description": "Color secundario principal. Usado para acciones secundarias o badges."
+        },
+        "color-secondary-hover": {
+          "value": "{primitives.secondary.secondary-600}",
+          "type": "color",
+          "description": "Estado de hover del botón o enlace secundario."
+        },
+        "color-secondary-pressed": {
+          "value": "{primitives.secondary.secondary-700}",
+          "type": "color",
+          "description": "Estado activo (clic) del botón secundario."
+        },
+        "secondary-800": {
+          "value": "#0a2db9",
+          "type": "color"
+        },
+        "secondary-900": {
+          "value": "#082391",
+          "type": "color"
+        },
+        "color-text-on-secondary": {
+          "value": "{primitives.neutral.neutral-white}",
+          "type": "color"
+        },
+        "secondary-brand-default": {
+          "value": "{primitives.secondary.secondary-brand-base}",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "color-background-page": {
+          "value": "{primitives.neutral.neutral-white}",
+          "type": "color",
+          "description": "Color de fondo principal de la aplicación."
+        },
+        "color-background-surface": {
+          "value": "{primitives.neutral.neutral-50}",
+          "type": "color",
+          "description": "Color de fondo de tarjetas, modales o contenedores (off-white)."
+        },
+        "neutral-100": {
+          "value": "#eaeaea",
+          "type": "color",
+          "description": "Tono más claro (Bordes sutiles, Hover/Disable)"
+        },
+        "neutral-200": {
+          "value": "#cfcece",
+          "type": "color",
+          "description": "Gris muy claro"
+        },
+        "color-border-default": {
+          "value": "{primitives.neutral.neutral-300}",
+          "type": "color",
+          "description": "Color estándar para bordes de inputs y separadores."
+        },
+        "color-text-disabled": {
+          "value": "{primitives.neutral.neutral-400}",
+          "type": "color",
+          "description": "Color para texto en estados deshabilitados."
+        },
+        "color-text-link": {
+          "value": "{primitives.neutral.neutral-500}",
+          "type": "color",
+          "description": "Gris base (Sombras)"
+        },
+        "color-text-caption": {
+          "value": "{primitives.neutral.neutral-600}",
+          "type": "color",
+          "description": "Texto Secundario/Leyendas (Textos de ayuda, metadatos). Tono más claro para jerarquía visual."
+        },
+        "color-text-helper": {
+          "value": "{primitives.neutral.neutral-700}",
+          "type": "color",
+          "description": "Texto de Ayuda en Formularios (Ej. texto debajo de un input que guía al usuario). Es más oscuro que el caption (600) para garantizar la legibilidad."
+        },
+        "color-text-body": {
+          "value": "{primitives.neutral.neutral-800}",
+          "type": "color",
+          "description": "Texto Principal de Lectura (Párrafos, cuerpo de texto largo, debe ser oscuro para cumplir con contraste)."
+        },
+        "color-text-high-contrast": {
+          "value": "{primitives.neutral.neutral-900}",
+          "type": "color",
+          "description": "Texto de Máxima Importancia (Titulares principales, H1, estados activos, iconos críticos)."
+        },
+        "neutral-black": {
+          "value": "{primitives.neutral.base-black}",
+          "type": "color",
+          "description": "Negro puro (Textos de alto contraste)"
+        },
+        "color-text-placeholder": {
+          "value": "{primitives.neutral.neutral-600}",
+          "type": "color",
+          "description": "Texto que indica que hay un input o campo vacío."
+        },
+        "color-icon-default2": {
+          "value": "{primitives.neutral.neutral-800}",
+          "type": "color",
+          "description": "Color base para iconos que no son interactivos (Iconos de navegación estáticos)."
+        }
+      },
+      "feedback": {
+        "color-feedback-error-background": {
+          "value": "{primitives.feedback.error-100}",
+          "type": "color",
+          "description": "Color de fondo de los banners o notificaciones de error."
+        },
+        "error-300": {
+          "value": "#e87883",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "error-500": {
+          "value": "#dc3545",
+          "type": "color",
+          "description": "Color Base (Botones de acción, Iconos principales)"
+        },
+        "color-feedback-error-text": {
+          "value": "{primitives.feedback.error-700}",
+          "type": "color",
+          "description": "Color del texto de mensajes de error (mayor contraste)."
+        },
+        "color-feedback-success-background": {
+          "value": "{primitives.feedback.success-100}",
+          "type": "color",
+          "description": "Color de fondo de las notificaciones de éxito."
+        },
+        "success-300": {
+          "value": "#1effa9",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "success-500": {
+          "value": "#00ad6b",
+          "type": "color",
+          "description": "Color Base (Confirmaciones, Iconos principales)"
+        },
+        "color-feedback-success-text": {
+          "value": "{primitives.feedback.success-700}",
+          "type": "color",
+          "description": "Color del texto de mensajes de éxito."
+        },
+        "color-feedback-warning-background": {
+          "value": "{primitives.feedback.warning-100}",
+          "type": "color",
+          "description": "Color de fondo de los banners de advertencia."
+        },
+        "warning-300": {
+          "value": "#ffd65a",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "warning-500": {
+          "value": "#ffc107",
+          "type": "color",
+          "description": "Color Base (Alertas, Iconos principales)"
+        },
+        "color-feedback-warning-text": {
+          "value": "{primitives.feedback.warning-700}",
+          "type": "color",
+          "description": "Color del texto de advertencias o warnings."
+        }
+      }
+    }
+  },
+  "Color Tokens/Montpellier": {
+    "primitives": {
+      "primary": {
+        "primary-50": {
+          "value": "#e6f1ed",
+          "type": "color"
+        },
+        "primary-100": {
+          "value": "#b0d5c7",
+          "type": "color"
+        },
+        "primary-200": {
+          "value": "#8ac0ac",
+          "type": "color"
+        },
+        "primary-300": {
+          "value": "#54a486",
+          "type": "color"
+        },
+        "primary-400": {
+          "value": "#33926f",
+          "type": "color"
+        },
+        "primary-500": {
+          "value": "#00774b",
+          "type": "color"
+        },
+        "primary-600": {
+          "value": "#006c44",
+          "type": "color"
+        },
+        "primary-700": {
+          "value": "#005435",
+          "type": "color"
+        },
+        "primary-800": {
+          "value": "#004129",
+          "type": "color"
+        },
+        "primary-900": {
+          "value": "#003220",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "secondary-50": {
+          "value": "#f5f7ff",
+          "type": "color"
+        },
+        "secondary-100": {
+          "value": "#eceffe",
+          "type": "color"
+        },
+        "secondary-200": {
+          "value": "#d8e0fd",
+          "type": "color"
+        },
+        "secondary-300": {
+          "value": "#9daffa",
+          "type": "color"
+        },
+        "secondary-400": {
+          "value": "#748ff8",
+          "type": "color"
+        },
+        "secondary-500": {
+          "value": "#4c6ef6",
+          "type": "color"
+        },
+        "secondary-600": {
+          "value": "#244df4",
+          "type": "color"
+        },
+        "secondary-700": {
+          "value": "#0c36e2",
+          "type": "color"
+        },
+        "secondary-800": {
+          "value": "#0a2db9",
+          "type": "color"
+        },
+        "secondary-900": {
+          "value": "#082391",
+          "type": "color"
+        },
+        "secondary-brand-base": {
+          "value": "#c5d0fc",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "neutral-white": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Blanco absoluto (Fondos, Textos inversos)"
+        },
+        "neutral-50": {
+          "value": "#fafafa",
+          "type": "color",
+          "description": "Off-white (Fondos claros, contenedores)"
+        },
+        "neutral-100": {
+          "value": "#eaeaea",
+          "type": "color",
+          "description": "Tono más claro (Bordes sutiles, Hover/Disable)"
+        },
+        "neutral-200": {
+          "value": "#cfcece",
+          "type": "color",
+          "description": "Gris muy claro"
+        },
+        "neutral-300": {
+          "value": "#bab8b8",
+          "type": "color",
+          "description": "Gris para bordes por defecto"
+        },
+        "neutral-400": {
+          "value": "#a5a1a1",
+          "type": "color",
+          "description": "Gris medio (Iconos secundarios)"
+        },
+        "neutral-500": {
+          "value": "#908b8b",
+          "type": "color",
+          "description": "Gris base (Sombras)"
+        },
+        "neutral-600": {
+          "value": "#7a7474",
+          "type": "color",
+          "description": "Gris oscuro (Textos de placeholder)"
+        },
+        "neutral-700": {
+          "value": "#655f5f",
+          "type": "color",
+          "description": "Gris más oscuro"
+        },
+        "neutral-800": {
+          "value": "#4e4949",
+          "type": "color",
+          "description": "Gris muy oscuro"
+        },
+        "neutral-900": {
+          "value": "#383434",
+          "type": "color",
+          "description": "Gris casi negro (Texto del cuerpo principal)"
+        },
+        "base-black": {
+          "value": "#0b0a0a",
+          "type": "color",
+          "description": "Negro puro (Textos de alto contraste)"
+        }
+      },
+      "feedback": {
+        "error-100": {
+          "value": "#f3bcc1",
+          "type": "color",
+          "description": "Tono más claro (Fondos de notificación, backgrounds)"
+        },
+        "error-300": {
+          "value": "#e87883",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "error-500": {
+          "value": "#dc3545",
+          "type": "color",
+          "description": "Color Base (Botones de acción, Iconos principales)"
+        },
+        "error-700": {
+          "value": "#a21c29",
+          "type": "color",
+          "description": "Tono oscuro (Texto de error, Iconos de alto contraste)"
+        },
+        "success-100": {
+          "value": "#8fffd4",
+          "type": "color",
+          "description": "Tono más claro (Fondos de notificación, backgrounds)"
+        },
+        "success-300": {
+          "value": "#1effa9",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "success-500": {
+          "value": "#00ad6b",
+          "type": "color",
+          "description": "Color Base (Confirmaciones, Iconos principales)"
+        },
+        "success-700": {
+          "value": "#007c4d",
+          "type": "color",
+          "description": "Tono oscuro (Texto de éxito, Iconos de alto contraste)"
+        },
+        "warning-100": {
+          "value": "#ffffee",
+          "type": "color",
+          "description": "Tono más claro (Fondos de notificación, backgrounds)"
+        },
+        "warning-300": {
+          "value": "#ffd65a",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "warning-500": {
+          "value": "#ffc107",
+          "type": "color",
+          "description": "Color Base (Alertas, Iconos principales)"
+        },
+        "warning-700": {
+          "value": "#b78900",
+          "type": "color",
+          "description": "Tono oscuro (Texto de advertencia, Iconos de alto contraste)"
+        }
+      }
+    },
+    "semantics": {
+      "primary": {
+        "color-background-primary": {
+          "value": "{primitives.primary.primary-50}",
+          "type": "color",
+          "description": "El tono más claro, usado para fondos de contenedores o notificaciones sutiles."
+        },
+        "primary-100": {
+          "value": "#b0d5c7",
+          "type": "color"
+        },
+        "primary-200": {
+          "value": "#8ac0ac",
+          "type": "color"
+        },
+        "color-brand-disabled": {
+          "value": "{primitives.primary.primary-300}",
+          "type": "color",
+          "description": "El color para elementos principales deshabilitados o inactivos."
+        },
+        "primary-400": {
+          "value": "#33926f",
+          "type": "color"
+        },
+        "color-brand-default": {
+          "value": "{primitives.primary.primary-500}",
+          "type": "color",
+          "description": "El color principal para Botones, Links y acciones clave."
+        },
+        "color-brand-hover": {
+          "value": "{primitives.primary.primary-600}",
+          "type": "color",
+          "description": "El color usado cuando el usuario pasa el ratón sobre un elemento principal."
+        },
+        "color-brand-pressed": {
+          "value": "{primitives.primary.primary-700}",
+          "type": "color",
+          "description": "El color para el estado activo (click) de un botón."
+        },
+        "color-border-input-dark": {
+          "value": "{primitives.primary.primary-800}",
+          "type": "color"
+        },
+        "primary-900": {
+          "value": "#003220",
+          "type": "color"
+        },
+        "color-text-on-brand": {
+          "value": "{primitives.neutral.neutral-white}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "secondary-50": {
+          "value": "#f5f7ff",
+          "type": "color"
+        },
+        "color-secondary-background": {
+          "value": "{primitives.secondary.secondary-100}",
+          "type": "color",
+          "description": "El tono más claro, usado para fondos de contenedores o tarjetas."
+        },
+        "secondary-200": {
+          "value": "#d8e0fd",
+          "type": "color"
+        },
+        "color-divider-default": {
+          "value": "{primitives.secondary.secondary-300}",
+          "type": "color",
+          "description": "El color base para todas las líneas divisorias, separadores horizontales y verticales."
+        },
+        "secondary-400": {
+          "value": "#748ff8",
+          "type": "color"
+        },
+        "color-secondary-default": {
+          "value": "{primitives.secondary.secondary-500}",
+          "type": "color",
+          "description": "Color secundario principal. Usado para acciones secundarias o badges."
+        },
+        "color-secondary-hover": {
+          "value": "{primitives.secondary.secondary-600}",
+          "type": "color",
+          "description": "Estado de hover del botón o enlace secundario."
+        },
+        "color-secondary-pressed": {
+          "value": "{primitives.secondary.secondary-700}",
+          "type": "color",
+          "description": "Estado activo (clic) del botón secundario."
+        },
+        "secondary-800": {
+          "value": "#0a2db9",
+          "type": "color"
+        },
+        "secondary-900": {
+          "value": "#082391",
+          "type": "color"
+        },
+        "color-text-on-secondary": {
+          "value": "{primitives.neutral.neutral-white}",
+          "type": "color"
+        },
+        "secondary-brand-default": {
+          "value": "{primitives.secondary.secondary-brand-base}",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "color-background-page": {
+          "value": "{primitives.neutral.neutral-white}",
+          "type": "color",
+          "description": "Color de fondo principal de la aplicación."
+        },
+        "color-background-surface": {
+          "value": "{primitives.neutral.neutral-50}",
+          "type": "color",
+          "description": "Color de fondo de tarjetas, modales o contenedores (off-white)."
+        },
+        "neutral-100": {
+          "value": "#eaeaea",
+          "type": "color",
+          "description": "Tono más claro (Bordes sutiles, Hover/Disable)"
+        },
+        "neutral-200": {
+          "value": "#cfcece",
+          "type": "color",
+          "description": "Gris muy claro"
+        },
+        "color-border-default": {
+          "value": "{primitives.neutral.neutral-300}",
+          "type": "color",
+          "description": "Color estándar para bordes de inputs y separadores."
+        },
+        "color-text-disabled": {
+          "value": "{primitives.neutral.neutral-400}",
+          "type": "color",
+          "description": "Color para texto en estados deshabilitados."
+        },
+        "color-text-link": {
+          "value": "{primitives.neutral.neutral-500}",
+          "type": "color",
+          "description": "Gris base (Sombras)"
+        },
+        "color-text-caption": {
+          "value": "{primitives.neutral.neutral-600}",
+          "type": "color",
+          "description": "Texto Secundario/Leyendas (Textos de ayuda, metadatos). Tono más claro para jerarquía visual."
+        },
+        "color-text-helper": {
+          "value": "{primitives.neutral.neutral-700}",
+          "type": "color",
+          "description": "Texto de Ayuda en Formularios (Ej. texto debajo de un input que guía al usuario). Es más oscuro que el caption (600) para garantizar la legibilidad."
+        },
+        "color-text-body": {
+          "value": "{primitives.neutral.neutral-800}",
+          "type": "color",
+          "description": "Texto Principal de Lectura (Párrafos, cuerpo de texto largo, debe ser oscuro para cumplir con contraste)."
+        },
+        "color-text-high-contrast": {
+          "value": "{primitives.neutral.neutral-900}",
+          "type": "color",
+          "description": "Texto de Máxima Importancia (Titulares principales, H1, estados activos, iconos críticos)."
+        },
+        "neutral-black": {
+          "value": "{primitives.neutral.base-black}",
+          "type": "color",
+          "description": "Negro puro (Textos de alto contraste)"
+        },
+        "color-text-placeholder": {
+          "value": "{primitives.neutral.neutral-600}",
+          "type": "color",
+          "description": "Texto que indica que hay un input o campo vacío."
+        },
+        "color-icon-default2": {
+          "value": "{primitives.neutral.neutral-800}",
+          "type": "color",
+          "description": "Color base para iconos que no son interactivos (Iconos de navegación estáticos)."
+        }
+      },
+      "feedback": {
+        "color-feedback-error-background": {
+          "value": "{primitives.feedback.error-100}",
+          "type": "color",
+          "description": "Color de fondo de los banners o notificaciones de error."
+        },
+        "error-300": {
+          "value": "#e87883",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "error-500": {
+          "value": "#dc3545",
+          "type": "color",
+          "description": "Color Base (Botones de acción, Iconos principales)"
+        },
+        "color-feedback-error-text": {
+          "value": "{primitives.feedback.error-700}",
+          "type": "color",
+          "description": "Color del texto de mensajes de error (mayor contraste)."
+        },
+        "color-feedback-success-background": {
+          "value": "{primitives.feedback.success-100}",
+          "type": "color",
+          "description": "Color de fondo de las notificaciones de éxito."
+        },
+        "success-300": {
+          "value": "#1effa9",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "success-500": {
+          "value": "#00ad6b",
+          "type": "color",
+          "description": "Color Base (Confirmaciones, Iconos principales)"
+        },
+        "color-feedback-success-text": {
+          "value": "{primitives.feedback.success-700}",
+          "type": "color",
+          "description": "Color del texto de mensajes de éxito."
+        },
+        "color-feedback-warning-background": {
+          "value": "{primitives.feedback.warning-100}",
+          "type": "color",
+          "description": "Color de fondo de los banners de advertencia."
+        },
+        "warning-300": {
+          "value": "#ffd65a",
+          "type": "color",
+          "description": "Tono intermedio (Bordes, hover sutil)"
+        },
+        "warning-500": {
+          "value": "#ffc107",
+          "type": "color",
+          "description": "Color Base (Alertas, Iconos principales)"
+        },
+        "color-feedback-warning-text": {
+          "value": "{primitives.feedback.warning-700}",
+          "type": "color",
+          "description": "Color del texto de advertencias o warnings."
+        }
+      }
+    }
+  },
+  "Typography/Mode 1": {
+    "h1": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Bold",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 42,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-xxxxl}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": -0.25,
+        "type": "number"
+      }
+    },
+    "h2": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Bold",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 35,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-xxxl}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": -0.2,
+        "type": "number"
+      }
+    },
+    "h3": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Bold",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 29,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-xl}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": -0.15,
+        "type": "number"
+      }
+    },
+    "h4": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Medium",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 24,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-xl}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "h5": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Medium",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 20,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-lg}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "h6": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Medium",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 17,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-lg}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "subtitle1": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Medium",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 14,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-lg}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "subtitle2": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Medium",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 12,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-md}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "body1": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Medium",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 14,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-lg}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "body2": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Regular",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 12,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-md}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "button": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Medium",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 14,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-lg}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0.5,
+        "type": "number"
+      }
+    },
+    "caption": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Regular",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 12,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-md}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "overline": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Medium",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 10,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-md}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 2,
+        "type": "number"
+      }
+    },
+    "overline2": {
+      "font-family": {
+        "value": "Work Sans",
+        "type": "text"
+      },
+      "font-weight": {
+        "value": "Medium",
+        "type": "text"
+      },
+      "font-size": {
+        "value": 8,
+        "type": "number"
+      },
+      "line-height": {
+        "value": "{spacing-xs}",
+        "type": "number"
+      },
+      "letter-spacing": {
+        "value": 0,
+        "type": "number"
+      }
+    }
+  },
+  "Spacing/Mode 1": {
+    "spacing-0": {
+      "value": 0,
+      "type": "number",
+      "description": "Ausencia de espacio. Se usa para resetear márgenes o relleno."
+    },
+    "spacing-xxs": {
+      "value": 2,
+      "type": "number",
+      "description": "Micro: Espacio mínimo, usado para elementos internos muy compactos."
+    },
+    "spacing-sm": {
+      "value": 8,
+      "type": "number",
+      "description": "Componente: Espacio pequeño estándar, para separar elementos dentro de un componente."
+    },
+    "spacing-xs": {
+      "value": 4,
+      "type": "number",
+      "description": "Micro: Espaciado base de la escala, usado principalmente para el padding de botones pequeños."
+    },
+    "spacing-lg": {
+      "value": 24,
+      "type": "number",
+      "description": "Componente/Sección: Espacio grande para separar grupos de componentes o subsecciones."
+    },
+    "spacing-md": {
+      "value": 16,
+      "type": "number",
+      "description": "Componente Base: El espacio más común. Usado para la separación entre componentes adyacentes."
+    },
+    "spacing-xxl": {
+      "value": 40,
+      "type": "number",
+      "description": "Macro: Espacio extra-grande, usado en layouts complejos o al inicio/final de la página."
+    },
+    "spacing-xl": {
+      "value": 32,
+      "type": "number",
+      "description": "Macro: Para grandes bloques de contenido. Usado para separación de secciones principales."
+    },
+    "spacing-xxxxl": {
+      "value": 56,
+      "type": "number",
+      "description": "Macro: Espacio extra-grande, usado en layouts complejos o al inicio/final de la página."
+    },
+    "spacing-xxxl": {
+      "value": 48,
+      "type": "number",
+      "description": "Macro: Espacio extra-grande, usado en layouts complejos o al inicio/final de la página."
+    },
+    "spacing-xxxxxl": {
+      "value": 64,
+      "type": "number",
+      "description": "Macro: Espacio extra-grande, usado en layouts complejos o al inicio/final de la página."
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "Color Tokens/Bagó",
+      "Color Tokens/Montpellier",
+      "Typography/Mode 1",
+      "Spacing/Mode 1"
     ]
   }
 }
